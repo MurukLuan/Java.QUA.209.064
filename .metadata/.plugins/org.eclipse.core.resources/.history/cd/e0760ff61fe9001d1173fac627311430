@@ -1,0 +1,41 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		/*for(int contador = 1; contador <= 20; contador++) {
+			System.out.println(contador);
+		}
+		
+		for(int contador = 1; contador <= 20; contador++) {
+			System.out.print(" " + contador );
+		}
+		System.out.println();
+		int contador = 1;
+		while(contador <= 20) {
+			
+			System.out.println(contador);
+			contador++;
+		}*/
+		Scanner sc = new Scanner(System.in);
+		
+		double altura = 0.0;
+		double media = 0.0;
+		
+		for(int contador = 1; contador <=5; contador++) {
+			System.out.print("Entre com a altura: ");
+			altura = sc.nextDouble();
+			
+			media += altura;
+		}
+		
+		System.out.println("Media das alturas: " + media);
+		
+		
+
+	}
+
+}

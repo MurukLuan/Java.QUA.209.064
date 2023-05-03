@@ -1,0 +1,33 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		/*for(int contador = 1; contador <= 20; contador++) {
+			System.out.println(contador);
+		}
+		
+		for(int contador = 1; contador <= 20; contador++) {
+			System.out.print(" " + contador );
+		}
+		System.out.println();
+		int contador = 1;
+		while(contador <= 20) {
+			
+			System.out.println(contador);
+			contador++;
+			
+		}*/
+		int soma = 0;
+		for (int contador = 1; contador <= 5; contador++) {
+			if(contador % 2 != 0) {
+				soma = soma + contador;
+			}
+		}
+		System.out.println(soma);
+		
+
+	}
+
+}

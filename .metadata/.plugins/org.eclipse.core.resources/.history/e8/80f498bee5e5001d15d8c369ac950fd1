@@ -1,0 +1,26 @@
+package principal;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		// for usada quando ja sabemos a quantidade de 
+		//vezes que deve ser executado
+		
+		for(int contador = 0; contador <= 3; contador+= 2) {
+			System.out.println("digite o nome:  ");
+			String nome = sc.nextLine();
+			
+			System.out.println("nome: " + nome);
+		}
+		
+		for(int contador = 0; contador <= 20; contador+= 2) {
+			System.out.println("valor do contador:  " + contador);
+			
+		}
+
+	}
+
+}

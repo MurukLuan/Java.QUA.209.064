@@ -1,0 +1,17 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		// for usada quando ja sabemos a quantidade de 
+		//vezes que deve ser executado
+		
+		for(int contador = 0; contador <= 10; contador++) {
+			System.out.println("Cntador esta valendo: "
+					+ contador);
+		}
+
+	}
+
+}
