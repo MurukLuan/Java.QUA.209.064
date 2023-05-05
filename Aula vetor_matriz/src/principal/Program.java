@@ -25,7 +25,7 @@ public class Program {
 		System.out.println("Foreach");
 		for(int indice : numeros) {
 			System.out.println(indice);
-		}
+		}*/
 		
 		int[][] mult = new int[3][3];
 		int contador = 0;
@@ -54,12 +54,7 @@ public class Program {
 		        System.out.print(matriz[i][j] + " ");
 		    }
 		    System.out.println();
-		}*/
-		
-		int media = 0;
-		media = (int) 8.5;
-		double media2 = 0;
-		media2 = 10;
+		}
 
 	}
 
