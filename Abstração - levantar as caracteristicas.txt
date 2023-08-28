@@ -1,0 +1,49 @@
+Abstração - levatar as caracteriscas e necessidades
+do projeto ou do objeto a ser trabalhado;
+
+pensar no mais alto nivel e depois pensar e como
+o nosso programa poderá evoluir a respeito de 
+atualizações;
+
+um sistema de armazenamento de tipos de veiculos
+carros seria o mais alto nivel
+descendo um pocuo o nivel: tipo de trasnporte (terrestre)
+descendo ainda mais: transportes;
+
+
+classe pai (super classe) seria transportes que herda de tipos de veiculo, classes de veiculos (carros, moto..);
+
+cada classe possui suas caracteristicas 
+as caracteristicas são chamadas de atributos;
+
+as classes podem possuir tambem funções
+as funções são chamadas de metodos; 
+
+os metodos podem ou não retornar um valor
+os metodos também podem ou não necessitar de parametros
+
+nossos atributos podem ser do tipo public, private, 
+protected, static;
+
+*static não muda
+*public é acessivel em qualquer lugar no sistema
+*private é acessivel apenas na classe onde se encontra.
+quando o atributo é private, necessitamos de metodos
+acessores para modificar o valor dos atributos
+para isso usamos o get e o set
+get => obter
+set => atribuir 
+*protected é acessado em classes filhas (subclasses)
+que necessitam herdar ou alterar valor dos atributos
+da classe pai (super classe);
+
+encapsulamento: é o ato de esconder metodos e atributos para que não possam ser acessados ou alterados de forma explicita. por isso usamos o private;
+
+uma classe herda apenas de outra classe que seja uma super classe, ou seja não podemos herdar de uma subclasse;
+
+sobrecarga é usada quando temos um metodo ou um construtor que recebe quantidade X de parametros, podendo ser reescrita com a quantidade de parametros que perecisamos;
+
+uma subclasse quando herda de uma classe a gente tem a ligação do tipo É UMA. exemplo, uma classe conta corrente é uma conta. A classe conta é a classe pai ou seuper classe.
+
+a classe é um molde um objeto, possui as carateristicas (atributos) e metodos necessarios;
+o objeto é a instanciação da classe, é quando a gente coloca para uso com o: new NomeDaClasse();
